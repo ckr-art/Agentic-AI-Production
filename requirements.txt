@@ -1,11 +1,5 @@
 fastapi
-uvicorn[standard]
-langchain
-openai
-chromadb
+uvicorn
+google-generativeai
 python-dotenv
-pydantic
 pytest
-requests
-opentelemetry-api
-opentelemetry-sdk
