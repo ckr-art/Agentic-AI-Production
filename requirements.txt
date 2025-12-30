@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+langchain
+openai
+chromadb
+python-dotenv
+pydantic
+pytest
+requests
+opentelemetry-api
+opentelemetry-sdk
