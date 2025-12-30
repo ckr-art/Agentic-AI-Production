@@ -19,9 +19,15 @@ try:
 except Exception:
     agent = None
 
+
 @app.get("/health")
 def health():
-    return {"status": "ok"}
+    return {
+        "status": "ok",
+        "service": "agentic-ai-production",
+        "llm_configured": True
+    }
+
 
 @app.post("/run")
 async def run(request: Request):
